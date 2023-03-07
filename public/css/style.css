@@ -1,0 +1,221 @@
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover 
+  li a:hover {
+    background-color: #111;
+  } */
+  /* PÁGINA DE LOGIN */
+  .login {
+    width: 800px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+  	background-color: #dad6ca;
+  	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  	margin: 100px auto;
+  }
+
+  .login-btn {
+    width: 100px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #563444;
+    color: #dad6ca;
+  }
+
+  .login-btn:hover {
+    width: 100px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #6a5e72;
+    color: #dad6ca;
+  }
+  /* ITENS GERAIS */
+  #logo {
+    float: left;
+    width: auto;
+    height: 45px;
+  }
+
+  .text-color1 {
+    color: #dad6ca;
+  }
+
+  .text-color2 {
+    color: #563444;
+  }
+
+  .navbar {
+    max-height: 45px;
+    width: 100%;
+    background-color: RGB(93, 12, 29);
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* Navbar links */
+  .navbar .navbar-separator .link, .navbar #greetings, .navbar .link {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: RGB(204, 179, 141);
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar .navbar-separator .link:hover, .navbar .link:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #A80528;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: RGB(204, 179, 141);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar .navbar-separator .link:hover, .dropdown:hover .dropbtn, .navbar .link:hover {
+    background-color: #A80528;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: RGB(93, 12, 29);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: RGB(204, 179, 141);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #A80528;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* PÁGINA DA NOTÍCIA */
+  btn{
+    cursor: pointer;
+    outline: 0;
+    color: #aaa;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .green{
+    color: green;
+  }
+  
+  .red{
+    color: red;
+  }
+
+  /* HOMEPAGE */
+  body {
+    margin: 0px;
+    background-color: #563444;
+  }
+
+  .flex-container {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .noticias {
+    flex-direction: row;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    background: #6a5e72;
+  }
+
+  .noticia {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    width: 400px;
+    background: #dad6ca;
+  }
+
+  .noticia-unica {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    width: fit-content;
+    background: #dad6ca;
+  }
+
+  .link-noticia {
+    font-size: 25px;
+    flex-wrap: wrap;
+  }
+
+  ::-webkit-scrollbar {
+    height: 8px;              /* height of horizontal scrollbar ← You're missing this */
+    width: 4px;               /* width of vertical scrollbar */
+    border: 1px solid #4f8699;
+  }
+
+  ::-webkit-scrollbar-thumb:horizontal{
+    background: #4f8699;
+    border-radius: 10px;
+    
+}
